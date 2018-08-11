@@ -10,6 +10,8 @@ namespace DesignPattern
     {
         static void Main(string[] args)
         {
+            //Decorator Pattern
+            DecoratorPattern.Excute();
         }
     }
 }
