@@ -14,12 +14,12 @@ namespace DesignPattern
             //點魚堡+A附餐
             IMeal order1 = new SideDishA(new FishBurger());
             Console.WriteLine("你點了: " + order1.GetName());
-            Console.WriteLine("總金額: " + order1.GetName());
+            Console.WriteLine("總金額: " + order1.GetPrice());
             Console.WriteLine("---------");
             //點牛肉堡+B附餐
             IMeal order2 = new SideDishB(new BeffBurger());
             Console.WriteLine("你點了: " + order2.GetName());
-            Console.WriteLine("總金額: " + order2.GetName());
+            Console.WriteLine("總金額: " + order2.GetPrice());
             Console.ReadLine();
         }
     }
