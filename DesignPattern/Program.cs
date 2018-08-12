@@ -14,7 +14,11 @@ namespace DesignPattern
             //DecoratorPattern.Excute();
 
             //Null Object Pattern
-            NullObjectPattern.Excute();
+            //NullObjectPattern.Excute();
+
+            //Composite Pattern
+            CompositePattern.Excute();
+
         }
     }
 }
