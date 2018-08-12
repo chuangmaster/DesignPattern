@@ -11,13 +11,16 @@ namespace DesignPattern
         static void Main(string[] args)
         {
             //Decorator Pattern
-            DecoratorPattern.Excute();
+            //DecoratorPattern.Excute();
 
             //Null Object Pattern
             //NullObjectPattern.Excute();
 
             //Composite Pattern
             //CompositePattern.Excute();
+
+            //Adapter Pattern
+            AdapterPattern.Excute();
 
         }
     }
