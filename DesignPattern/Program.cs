@@ -22,11 +22,12 @@ namespace DesignPattern
             //Adapter Pattern
             //AdapterPattern.Excute();
 
-            //Factory Patern Simple Factory
-            //FactoryPatern_Simple.Excute();
+            //Factory Pattern Sample Factory
+            //FactoryPattern_Sample.Excute();
 
-            //Factory Patern Method Factory
+            //Factory Pattern Method Factory
             FactoryPattern_Method.Excute();
+
         }
     }
 }
