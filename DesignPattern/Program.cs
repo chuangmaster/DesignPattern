@@ -20,8 +20,13 @@ namespace DesignPattern
             //CompositePattern.Excute();
 
             //Adapter Pattern
-            AdapterPattern.Excute();
+            //AdapterPattern.Excute();
 
+            //Factory Patern Simple Factory
+            //FactoryPatern_Simple.Excute();
+
+            //Factory Patern Method Factory
+            FactoryPattern_Method.Excute();
         }
     }
 }
