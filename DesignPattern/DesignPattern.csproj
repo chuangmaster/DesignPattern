@@ -45,6 +45,7 @@
     <Compile Include="AdapterPattern.cs" />
     <Compile Include="CompositePattern.cs" />
     <Compile Include="DecoratorPattern.cs" />
+    <Compile Include="FactoryPattern_Abstract.cs" />
     <Compile Include="FactoryPattern_Method.cs" />
     <Compile Include="FactoryPattern_Sample.cs" />
     <Compile Include="NullObjectPattern.cs" />

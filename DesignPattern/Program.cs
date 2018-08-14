@@ -26,7 +26,10 @@ namespace DesignPattern
             //FactoryPattern_Sample.Excute();
 
             //Factory Pattern Method Factory
-            FactoryPattern_Method.Excute();
+            //FactoryPattern_Method.Excute();
+
+            //Factory Pattern Abstract Factory
+            FactoryPattern_Abstract.Excute();
 
         }
     }
