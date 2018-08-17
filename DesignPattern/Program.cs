@@ -29,7 +29,10 @@ namespace DesignPattern
             //FactoryPattern_Method.Excute();
 
             //Factory Pattern Abstract Factory
-            FactoryPattern_Abstract.Excute();
+            //FactoryPattern_Abstract.Excute();
+
+            //DI Container
+            DIContainerSampleOriginal.Excute();
 
         }
     }
