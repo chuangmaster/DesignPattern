@@ -47,6 +47,10 @@
     <Compile Include="DecoratorPattern.cs" />
     <Compile Include="DIContainerSampleOriginal.cs" />
     <Compile Include="DIContainerSampleV1.cs" />
+    <Compile Include="DIContainer\AuthenticationService.cs" />
+    <Compile Include="DIContainer\EmailService.cs" />
+    <Compile Include="DIContainer\Interface\IMessageService.cs" />
+    <Compile Include="DIContainer\ShortMessageService.cs" />
     <Compile Include="FactoryPattern_Abstract.cs" />
     <Compile Include="FactoryPattern_Method.cs" />
     <Compile Include="FactoryPattern_Sample.cs" />

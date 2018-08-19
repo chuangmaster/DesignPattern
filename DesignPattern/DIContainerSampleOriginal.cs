@@ -1,4 +1,6 @@
-﻿using System;
+﻿using DesignPattern.DIContainer;
+using DesignPattern.DIContainer.Interface;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -34,36 +36,6 @@ namespace DesignPattern
             }
             Console.ReadLine();
         }
-    }
-    public interface IMessageService
-    {
-        void Send();
-    }
-    public class ShortMessageService : IMessageService
-    {
-        public void Send()
-        {
-            Console.WriteLine("Send Short Message...");
-        }
-    }
-    public class EmailService : IMessageService
-    {
-        public void Send()
-        {
-            Console.WriteLine("Send Email...");
-
-        }
-    }
-    public class AuthenticationService
-    {
-        public AuthenticationService(IMessageService service)
-        {
-            service.Send();
-        }
-        public bool TwoFactorLogin(string userId, string pwd)
-        {
-            return true;
-        }
-    }
+    }  
 
 }

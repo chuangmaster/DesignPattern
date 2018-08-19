@@ -1,4 +1,6 @@
-﻿using System;
+﻿using DesignPattern.DIContainer;
+using DesignPattern.DIContainer.Interface;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
