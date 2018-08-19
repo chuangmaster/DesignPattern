@@ -47,6 +47,7 @@
     <Compile Include="DecoratorPattern.cs" />
     <Compile Include="DIContainerSampleOriginal.cs" />
     <Compile Include="DIContainerSampleV1.cs" />
+    <Compile Include="DIContainerSampleV2.cs" />
     <Compile Include="DIContainer\AuthenticationService.cs" />
     <Compile Include="DIContainer\EmailService.cs" />
     <Compile Include="DIContainer\Interface\IMessageService.cs" />

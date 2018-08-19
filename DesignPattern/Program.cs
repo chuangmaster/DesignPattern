@@ -35,8 +35,10 @@ namespace DesignPattern
             //DIContainerSampleOriginal.Excute();
 
             //DI Container Sample V1
-            DIContainerSampleV1.Excute();
+            //DIContainerSampleV1.Excute();
 
+            //DI Container Sample V2
+            DIContainerSampleV2.Excute();
         }
     }
 }
