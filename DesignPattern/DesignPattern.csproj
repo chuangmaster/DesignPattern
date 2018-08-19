@@ -46,6 +46,7 @@
     <Compile Include="CompositePattern.cs" />
     <Compile Include="DecoratorPattern.cs" />
     <Compile Include="DIContainerSampleOriginal.cs" />
+    <Compile Include="DIContainerSampleV1.cs" />
     <Compile Include="FactoryPattern_Abstract.cs" />
     <Compile Include="FactoryPattern_Method.cs" />
     <Compile Include="FactoryPattern_Sample.cs" />

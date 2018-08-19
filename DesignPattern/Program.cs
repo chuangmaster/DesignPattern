@@ -32,7 +32,10 @@ namespace DesignPattern
             //FactoryPattern_Abstract.Excute();
 
             //DI Container
-            DIContainerSampleOriginal.Excute();
+            //DIContainerSampleOriginal.Excute();
+
+            //DI Container Sample V1
+            DIContainerSampleV1.Excute();
 
         }
     }
